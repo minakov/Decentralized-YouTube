@@ -2,6 +2,12 @@
   "name": "decentralized-youtube",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@metamask/jazzicon": "^2.0.0",
     "@nomiclabs/hardhat-ethers": "^2.0.5",
@@ -15,7 +21,6 @@
     "chai": "^4.3.6",
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.5.4",
-    "hardhat": "^2.8.4",
     "ipfs-http-client": "^56.0.1",
     "plyr-react": "^3.2.1",
     "react": "^17.0.2",
@@ -29,11 +34,14 @@
     "web3modal": "^1.9.5",
     "web3uikit": "^0.1.48"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "add": "^2.0.6",
+    "autoprefixer": "^10.4.2",
+    "hardhat": "^2.9.1",
+    "postcss": "^8.4.6",
+    "stream-http": "^3.2.0",
+    "tailwindcss": "^3.0.23",
+    "yarn": "^1.22.17"
   },
   "eslintConfig": {
     "extends": [
@@ -52,13 +60,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "add": "^2.0.6",
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.6",
-    "stream-http": "^3.2.0",
-    "tailwindcss": "^3.0.23",
-    "yarn": "^1.22.17"
   }
 }
