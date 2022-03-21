@@ -6,6 +6,7 @@ import { ThemeProvider } from "./utils/ThemeContext";
 import Background from "./components/Background";
 import { BrowserRouter } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
+
 ReactDOM.render(
   <Background>
     <React.StrictMode>

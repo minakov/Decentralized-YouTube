@@ -4,6 +4,7 @@ import Main from "./pages/main";
 import Upload from "./pages/Upload";
 import Hero from "./pages/Hero";
 import VideoPage from "./pages/Video";
+
 export default function App() {
   const [UserWallet, setUserWallet] = useState(null);
 
@@ -12,12 +13,10 @@ export default function App() {
   const checkedWallet = async () => {
     try {
       const { ethereum } = window;
-
       if (!ethereum) {
         alert("Get MetaMask!");
         return;
       }
-
       // Change network to ropsten
       await ethereum.enable();
 
